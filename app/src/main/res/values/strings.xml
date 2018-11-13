@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DateAndTimeDialog</string>
+    <string name="set_date_dialog">设置日期对话框</string>
+    <string name="single_choice_dialog">单选列表对话框</string>
+    <string name="multi_choice_dialog">多选列表对话框</string>
+    <string name="done">Done</string>
+    <string name="time">%1$s，%2$d/%3$d/%4$d</string>
+    <string name="date">%1$d年%2$d月%3$d日</string>
+    <string name="sex_choose">性别选择</string>
+    <string name="female">男</string>
+    <string name="male">女</string>
+    <string name="sex_unknown">性别未知</string>
+    <string name="guess">你猜</string>
+    <string name="sex_choice">您选择了：%1$s</string>
+    <string name="hobby_choose">选择个人爱好</string>
+    <string name="program">编程</string>
+    <string name="lol">LOL</string>
+    <string name="travel">旅游</string>
+    <string name="basketball">篮球</string>
+    <string name="sure">确定</string>
+</resources>

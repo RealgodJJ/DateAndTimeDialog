@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/star"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/hobby_choose"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanchedalmond"
+        android:orientation="vertical">
+
+        <!-- TODO:请问这里怎么设置选择按钮的颜色 -->
+        <CheckBox
+            android:id="@+id/cb_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/program"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/cb_lol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/lol"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/cb_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/travel"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/cb_basketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/basketball"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/b_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:background="@color/blanchedalmond"
+            android:text="@string/sure"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
